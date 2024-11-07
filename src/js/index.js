@@ -4,7 +4,7 @@
 3- Enviar dados para a API
 4- Representar dados retornados pela API em tela.
 */
-const chaveApi ="" //Insira aqui a chave/token gerada pela API
+const chaveApi ="" //Insira aqui a chave/token gerada pela API.
 const botaoBusca = document.querySelector(".btn-busca");
 
 botaoBusca.addEventListener("click", async() => {
