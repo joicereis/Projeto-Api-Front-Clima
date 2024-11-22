@@ -1,4 +1,4 @@
-# Api-Clima
+# Front-Clima
 
 Este é um projeto front-end que permite visualizar condições do clima de acordo com a cidade consultada utilizando os serviços da api pública 'Weather API' que pode ser acessa através do link https://www.weatherapi.com/weather/
 
