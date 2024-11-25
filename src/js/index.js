@@ -10,7 +10,6 @@ const btnSearch = document.querySelector(".btn-search");
 btnSearch.addEventListener("click", async() => {
     const city = document.getElementById("input-search-city").value;
 
-    //if(!cidade) return; //se não houver nada na cidade, interrompe a busca
     const dados = await getDadosDeClima(city);
     printDadosNaTela(dados, dados.city);
 })
