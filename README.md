@@ -14,6 +14,9 @@ Ao digitar o nome de uma cidade no campo correspondente e clicar no botão com �
 - Umidade; e
 - Velocidade do vento.
 
+![App_Clima](App_Clima.gif)
+
+
 ## Tecnologias
 - **HTML5**: Para marcação da página.
 - **CSS**: Para estilização da página.
@@ -32,3 +35,11 @@ Passos utilização dessa API é necessário gerar uma chave de autenticação. 
 4- Para utilizar em ambiente local, acesse o arquivo 'index.js' disponibilizado no caminho 'src\js' desse projeto e na linha 7, insira entre as aspas o valor copiado. Por fim, salve as alterações realizadas.
 
 5- Realize a abertura do arquivo 'index.html', disponível no diretório 'src', para visualizar e utilizar a aplicação.
+
+
+### Segunda (e atual) versão do projeto:
+
+A partir do commit 30788ef de data 25/11/2024, a aplicação Front-end deixou de apontar diretamente para a API pública Weatherapi e passou a ter seus serviços fornecidos pela api própria construída em C# ASP.NET, onde a última citada é quem faz o consumo dos serviços da API pública. Por esse motivo, a variável 'chaveApi' que recebia a chave da API publica deixou de estar inclusa no arquivo index.js desse projeto. A geração da chave para consumo da API pública ainda se faz necessária, no entanto, o seu valor agora deve ser adicionado à constante 'ApiKey' representada na linha 9 do arquivo ClimaRepository do projeto back-end 'Api-Clima'.
+
+Consulte o projeto back-end [Api-Clima](https://github.com/joicereis/Api-Clima).
+
