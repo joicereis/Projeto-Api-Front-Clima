@@ -3,7 +3,7 @@ body{
     font-family: "Red Hat Display", sans-serif;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     justify-content: center;
 }
 .container{
@@ -16,13 +16,13 @@ body{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 1) 0px 10px 50px;
 }
-.busca{
+.search{
     padding: 20px;
     display: flex;
     justify-content: center;
     gap: 5px;
 }
-.busca input{
+.search input{
     background-color: #0a1435;
     padding: 10px;
     border-radius: 5px;
@@ -32,7 +32,7 @@ body{
     font-size: 16px;
     opacity: 0.8;
 }
-.busca .btn-busca{
+.search .btn-search{
     background-color: #0a1435;
     cursor: pointer;
     border: none;
@@ -40,37 +40,37 @@ body{
     padding: 5px 10px;
     opacity: 0.8;
 }
-.busca .lupa{
+.search .lupa{
     width: 30px;
     padding: 6px;
     opacity: 0.8;
 }
-.informacoes-principais{
+.main-infos{
     margin: 30px;
 
 }
-.informacoes-principais h1{
+.main-infos h1{
     font-size: 20px;
 }
-.informacoes-principais h2{
+.main-infos h2{
     font-size: 18px;
 }
-.informacoes-principais .temperatura{
+.main-infos .temp-c{
     font-size: 58px;
     margin: 20px 0;
 
 }
-.informacoes-principais .condicao{
+.main-infos .condition{
     font-size: 20px;
 }
-.informacoes-secundarias{
+.second-infos{
     background-color: white;
     color: black;
     padding: 20px 30px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.informacoes-secundarias .umidade, .informacoes-secundarias .velocidade-vento{
+.second-infos .humidity, .second-infos .wind-speed{
     display: flex;
     justify-content: space-between;
     align-items: center;

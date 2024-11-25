@@ -17,33 +17,32 @@
 
 <body>
     <main class="container">
-        <div class="busca">
-            <input id="input-busca-cidade" type="text" placeholder="Digite uma cidade">
-            <button id="button-busca-cidade" class="btn-busca">
+        <div class="search">
+            <input id="input-search-city" type="text" placeholder="Digite uma cidade">
+            <button id="button-search-city" class="btn-search">
                 <img src="./imagens/lupa.png" alt="lupa" class="lupa">
             </button>
         </div>
-        <div class="informacoes-principais">
-            <h1 id="cidade">Use a lupa acima para ver o clima em uma cidade</h1>
-            <h2 id="estado"></h2>
-            <p id="temperatura" class="temperatura"></p>
-            <img id="icone-condicao" src="https://cdn.weatherapi.com/weather/64x64/day/116.png"
-                alt="ícone condicao do clima">
-            <p id="condicao" class="condicao"></p>
+        <div class="main-infos">
+            <h1 id="city">Use a lupa acima para ver o clima em uma cidade.</h1>
+            <h2 id="region"></h2>
+            <p id="temp-c" class="temp-c"></p>
+            <img id="icon-condition" src="https://cdn.weatherapi.com/weather/64x64/day/116.png"
+                alt="ícone condition do clima">
+            <p id="condition" class="condition"></p>
         </div>
-        <div class="informacoes-secundarias">
-            <div class="umidade">
+        <div class="second-infos">
+            <div class="humidity">
                 <span>Umidade</span>
-                <span id="umidade"></span>
+                <span id="humidity"></span>
             </div>
-            <div class="velocidade-vento">
+            <div class="wind-speed">
                 <span>Velocidade do vento</span>
-                <span id="velocidade-vento"></span>
+                <span id="wind-speed"></span>
             </div>
         </div>
     </main>
 
     <script src="./js/index.js"></script>
-</body>
-
+</body> 
 </html>
