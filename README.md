@@ -24,6 +24,8 @@ Ao digitar o nome de uma cidade no campo correspondente e clicar no botão com �
 
 ## Como utilizar:
 
+### Primeira versão do projeto:
+
 Passos utilização dessa API é necessário gerar uma chave de autenticação. Segue abaixo passos para autenticação:
 
 1- Se cadastre no site através do link https://www.weatherapi.com/signup.aspx
